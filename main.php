@@ -16,32 +16,37 @@
 	#signup{
 		width: 40%;
 		border-radius: 30px;
-		margin-left:
+		margin-top:100px;
 	}
 	#login{
 		width: 40%;
 		border: 1px solid #1da1f2;
 		border-radius: 30px;
 	}
-
-
+button{
+	margin-left:100px;
+}
+h2{
+	color:gray;
+}
 </style>
+
 <body>
 				<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
                     <a class="navbar-brand" href="#">
-                            <img src="image/icon.png" width="30" height="30"  alt="">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKixQnBkZmXC7i2WHREw4doK1PTRfcc03N3s4PU_c-EJco73BW" width="30" height="30"  alt="">
                             <b>FRIENDSBOOK</b>
                           </a>
 						  </nav>
 				<div class="row justify-content-around">
                       <div class="col-md-6">
-                          <img src="image/front.jpg" height="550" width="750">
+                          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHGnuxACYqAazdDB4enOFzde-UejgNiFXou5O7cgyQ5lQAuOjPLg" height="550" width="750">
                        </div>        
-                       <div class="col-md-6" style="right:1.2%;">
+                       <div class="col-md-6" style="left:2.5%; margin:30px 0px 0px 0px;">
                         <h2>A place to connect with people</h2>
-                        <h4>Providing a platform to users to share 
-                          their posts images and add other users as friends and allow messaging between the 
-                          all users </h4>
+                        <h5>Providing a platform to users to share 
+                          their posts images<br>and add other users as friends and allow messaging<br> between the 
+                          users </h5>
 						  
 				<form method="post" action="">
 				<button id="signup" class="btn btn-primary" name="signup">Sign up</button><br><br>
