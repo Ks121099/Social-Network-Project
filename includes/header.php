@@ -2,7 +2,7 @@
 include("includes/connection.php");
 include("functions/functions.php");
 ?>
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-dark bg-success">
 	<div class="container-fluid">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle collapsed" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" aria-expanded="false">
@@ -11,7 +11,7 @@ include("functions/functions.php");
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="home.php">Coding Cafe</a>
+			<a class="navbar-brand" href="home.php">FriendsBook</a>
 		</div>
 
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">

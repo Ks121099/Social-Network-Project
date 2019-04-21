@@ -42,7 +42,7 @@ h2{
                       <div class="col-md-6">
                           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHGnuxACYqAazdDB4enOFzde-UejgNiFXou5O7cgyQ5lQAuOjPLg" height="550" width="750">
                        </div>        
-                       <div class="col-md-6" style="left:2.5%; margin:30px 0px 0px 0px;">
+                       <div class="col-md-6" style="left:5.5%; margin:30px 0px 0px 0px;">
                         <h2>A place to connect with people</h2>
                         <h5>Providing a platform to users to share 
                           their posts images<br>and add other users as friends and allow messaging<br> between the 

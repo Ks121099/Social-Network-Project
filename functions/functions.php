@@ -138,7 +138,7 @@ function get_posts(){
 			<div class='row'>
 				<div class='col-sm-3'>
 				</div>
-				<div id='posts' class='col-sm-6'>
+				<div id='posts' class='col-sm-6' style='background-color: #d4d4dc;'>
 					<div class='row'>
 						<div class='col-sm-2'>
 						<p><img src='users/$user_image' class='img-circle' width='100px' height='100px'></p>

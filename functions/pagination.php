@@ -1,8 +1,10 @@
 <style>
 .pagination a{
 	color: black;
+	background: darkgray;
 	float: left;
 	padding: 8px 16px;
+	margin-left: 10px;
 	text-decoration: none;
 	transition: background-color .3s;
 }

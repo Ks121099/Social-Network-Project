@@ -26,6 +26,9 @@ if(!isset($_SESSION['user_email'])){
 	<link rel="stylesheet" type="text/css" href="style/home_style2.css">
 </head>
 <style>
+body{
+	background: lightblue;
+}
 	#cover-img{
 		height: 400px;
 		width: 100%;
@@ -152,7 +155,7 @@ if(!isset($_SESSION['user_email'])){
 <div class="row">
 	<div class="col-sm-2">
 	</div>
-	<div class="col-sm-2" style="background-color: #e6e6e6;text-align: center;left: 0.9%;border-radius: 5px;">
+	<div class="col-sm-2" style="background-color: #e6e6e6;text-align: center;left: 0.9%;border-radius: 5px; margin-bottom:10px;">
 		<?php
 		echo"
 			<center><h2><strong>About</strong></h2></center>

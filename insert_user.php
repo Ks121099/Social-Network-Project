@@ -34,17 +34,8 @@ include("includes/connection.php");
 			exit();
 		}
 
-		$rand = rand(1, 3); //Random number between 1 and 3
-
-			if($rand == 1)
-				$profile_pic = "head_red.png";
-			else if($rand == 2)
-				$profile_pic = "head_sun_flower.png";
-			else if($rand == 3)
-				$profile_pic = "head_turqoise.png";
-
 		$insert = "insert into users (f_name,l_name,user_name,describe_user,Relationship,user_pass,user_email,user_country,user_gender,user_birthday,user_image,user_cover,user_reg_date,status,posts,recovery_account)
-		values('$first_name','$last_name','$username','Hello Coding Cafe.This is my default status!','...','$pass','$email','$country','$gender','$birthday','$profile_pic','default_cover.jpg',NOW(),'$status','$posts','Iwanttoputading intheuniverse.')";
+		values('$first_name','$last_name','$username','Work Hard in silence and let your success make noise for you','...','$pass','$email','$country','$gender','$birthday','pro.jpg','default_cover.jpg',NOW(),'$status','$posts','Iwanttoputading intheuniverse.')";
 		
 		$query = mysqli_query($con, $insert);
 

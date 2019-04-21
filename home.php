@@ -26,12 +26,17 @@ if(!isset($_SESSION['user_email'])){
 	<link rel="stylesheet" type="text/css" href="style/home_style2.css">
 </head>
 <body>
+<style>
+body{
+	background: #393f4d;
+}
+</style>
 <div class="row">
-	<div id="insert_post" class="col-sm-12">
+	<div id="insert_post" class="col-sm-12" style="background:#f5f5f5;">
 		<center>
 		<form action="home.php?id=<?php echo $user_id; ?>" method="post" id="f" enctype="multipart/form-data">
 		<textarea class="form-control" id="content" rows="4" name="content" placeholder="What's in your mind?"></textarea><br>
-		<label class="btn btn-warning" id="upload_image_button">Select Image
+		<label class="btn btn-danger" id="upload_image_button">Select Image
 		<input type="file" name="upload_image" size="30">
 		</label>
 		<button id="btn-post" class="btn btn-success" name="sub">Post</button>
@@ -42,7 +47,7 @@ if(!isset($_SESSION['user_email'])){
 </div>
 <div class="row">
 	<div class="col-sm-12">
-		<center><h2><strong>News Feed</strong></h2><br></center>
+		<center><h2 style="color:white;"><strong>News Feed</strong></h2><br></center>
 		<?php echo get_posts(); ?>
 	</div>
 </div>
