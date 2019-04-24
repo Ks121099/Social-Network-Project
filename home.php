@@ -24,6 +24,7 @@ if(!isset($_SESSION['user_email'])){
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="style/home_style2.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 <body>
 <style>
@@ -36,7 +37,7 @@ body{
 		<center>
 		<form action="home.php?id=<?php echo $user_id; ?>" method="post" id="f" enctype="multipart/form-data">
 		<textarea class="form-control" id="content" rows="4" name="content" placeholder="What's in your mind?"></textarea><br>
-		<label class="btn btn-danger" id="upload_image_button">Select Image
+		<label class="btn btn-danger" id="upload_image_button"><i class="fab fa-instagram"></i> Image
 		<input type="file" name="upload_image" size="30">
 		</label>
 		<button id="btn-post" class="btn btn-success" name="sub">Post</button>
