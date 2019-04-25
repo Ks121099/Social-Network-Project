@@ -381,15 +381,16 @@ function single_post() {
 }
 function search_user(){
 	global $con;
-	if(isset($_GET['search_user_btn'])){
-		$search_query=httmlentities($_GET['search_btn']);
-		$get_user="select * from users where f_name like '%$seach_query%' OR l_name like '%$seach_query%' OR user_name like '%$seach_query%'";
-
-
+	if(isset($_GET['search_user_btn']))
+	{
+		$search_query=htmlentities($_GET['search_user']);
+		$get_user="select * from users where f_name like '%$search_query%' OR 
+		l_name like '% $search_query %' OR user_name like '%$search_query%'";
 	}
 	else{
 		$get_user="select * from users";
 	}
+
 	$run_user=mysqli_query($con,$get_user);
 
 	while($row_user=mysqli_fetch_array($run_user)){
