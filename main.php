@@ -40,7 +40,7 @@ h2{
 						  </nav>
 				<div class="row justify-content-around">
                       <div class="col-md-6">
-                          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHGnuxACYqAazdDB4enOFzde-UejgNiFXou5O7cgyQ5lQAuOjPLg" height="550" width="750">
+                          <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2013/11/social-network-links-730x410.jpg" height="550" width="750">
                        </div>        
                        <div class="col-md-6" style="left:5.5%; margin:30px 0px 0px 0px;">
                         <h2>A place to connect with people</h2>
